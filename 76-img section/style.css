@@ -1,0 +1,104 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.round-bg::after{
+	background-image:url(img/round.png);
+	
+}
+
+
+/*========================   Nav manu ==================*/
+
+
+.section-padding.round-bg {
+  position: relative;
+  z-index: 1;
+}
+.section-padding.round-bg::after {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 450px;
+	width: 450px;
+	content: "";
+	border-radius: 50%;
+	z-index: -1;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	margin-left: -225px;
+	margin-top: -225px;
+}
+
+.single-future-item {
+	position: relative;
+	z-index: 1;
+	text-align: right;
+	padding-right: 170px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 30px;
+	margin-bottom: -6px;
+	margin-top: 20px;
+	margin-bottom: -21px;
+}
+.fiture-icon {
+  position: absolute;
+  right: 0;
+  height: 150px;
+  width: 150px;
+  background: #fff;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 50px;
+  top: 0;
+}
+.fiture-icon i {
+  height: 100%;
+  border: 1px solid#ddd;
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+  line-height: 120px;
+}
+.single-future-item h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.col-md-6 {
+}
+.left-icon .fiture-icon {
+  left: 0;
+  right: auto;
+}
+.single-future-item.left-icon {
+  padding-left: 170px;
+  /*! margin-left: -23px; */
+  padding-right: 0px;
+  margin-right: 20px;
+  text-align: left;
+}
+.single-future-item.feture-padding-left {
+	margin: 0;
+	margin-right: 99px;
+	margin-top: 19px;
+}
+.single-future-item.left-icon.feture-padding-right {
+  margin-right: 0;
+  margin-left: 140px;
+}
+.single-future-item:hover .fiture-icon {
+	color: gray;
+	opacity: .8;
+}
+.single-future-item .fiture-icon {
+	transition: .3s;
+}
+
+
